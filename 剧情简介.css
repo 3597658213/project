@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.fixed {
+	position: fixed;
+	left: 5%;
+	top: 42%;
+	width: 150px;
+	height: 310px;
+	background-color: blue;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.442)
+}
+
+.fixed ul li {
+	margin: 20px auto;
+	border-radius: 5px;
+	color: skyblue;
+}
+
+.a {
+	margin: 0 auto;
+	width: 1000px;
+	height: 300px;
+}
+
+.one {
+	width: 1000px;
+	height: 300px;
+	font-size: 24px;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.two {
+	width: 1000px;
+}
+
+p {
+	font-size: 24px;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.sp1 {
+	margin-bottom: 15px;
+	width: 490px;
+	height: 300px;
+	margin: 5px;
+	float: left;
+}
+
+.three {
+	padding-bottom: 20px;
+	width: 1000px;
+	height: 300px;
+	border-style: solid;
+	border-color: #2FADE7;
+	border-width: 5px;
+	border-radius: 50px 50px/50px 50px;
+}
+
+.sp2 {
+	margin-bottom: 15px;
+	width: 490px;
+	height: 300px;
+	margin: auto;
+	float: right;
+}

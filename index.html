@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="首页.css" />
+	<link rel="stylesheet" href="轮播图.css" />
+	<script src="轮播图.js" charset="utf-8"></script>
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			list-style: none;
+		}
+
+		.rw {
+			width: 1000px;
+			height: 400px;
+			margin: auto;
+			border-style: double;
+			margin-top: 3px;
+			border-width: 5px;
+		}
+
+		p {
+			text-indent: 2em;
+			font-size: 20px;
+			text-align: left;
+		}
+
+		h2 {
+			color: #0272DA;
+		}
+
+		.nav {
+			position: relative;
+
+		}
+
+		.nav li {
+			float: left;
+			text-align: center;
+		}
+
+		.nav .first {
+			margin-left: 50px;
+		}
+
+		.first:hover .box1 {
+			display: block;
+		}
+
+		.two:hover .box2 {
+			display: block;
+		}
+
+		.three:hover .box3 {
+			display: block;
+		}
+
+		.four:hover .box4 {
+			display: block;
+		}
+
+		.five:hover .box5 {
+			display: block;
+		}
+
+		.six:hover .box6 {
+			display: block;
+		}
+
+
+		.box1,
+		.box2,
+		.box3,
+		.box4,
+		.box5,
+		.box6 {
+			position: absolute;
+			z-index: 50;
+			background-color: rgba(0, 0, 0, 0.4);
+			border-radius: 10px;
+			top: 30px;
+			display: none;
+		}
+
+		.box1 {
+			left: 42px;
+		}
+
+		.box2 {
+			left: 155px;
+		}
+
+		.box3 {
+			left: 292px;
+		}
+
+		.box4 {
+			left: 430px;
+		}
+
+		.box5 {
+			left: 570px;
+		}
+
+		.box6 {
+			left: 700px;
+		}
+
+		.box1 li,
+		.box2 li,
+		.box3 li,
+		.box4 li,
+		.box5 li,
+		.box6 li {
+			list-style: none;
+			text-align: center;
+			height: 28px;
+			float: none;
+		}
+
+		.box1 li a,
+		.box2 li a,
+		.box3 li a,
+		.box4 li a,
+		.box5 li a,
+		.box6 li a {
+			margin-top: 5px;
+			font-size: 18px;
+			display: block;
+			color: aliceblue;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="fixed">
+		<ul>
+			<li><a href="剧情简介.html" target="_self">剧情简介</a></li>
+			<li><a href="人物介绍.html" target="_self">人物介绍</a></li>
+			<li><a href="精美图集.html" target="_self">精美图集</a></li>
+			<li><a href="电影寓意.html" target="_self">电影寓意</a></li>
+			<li><a href="登录注册.html" target="_self">登录注册</a></li>
+			<li><a href="个人报告.html" target="_self">个人报告</a></li>
+		</ul>
+
+	</div>
+	<div id="a">
+		<div class="top">
+			<img src="龙猫.jpg" width="500px" height="300px">
+		</div>
+		<div class="nav">
+			<li class="first"><a href="index.html" target="_self">首页
+					<ul class="box1">
+						<li><a href="剧情简介.html" target="_self">剧情简介</a></li>
+						<li><a href="人物介绍.html" target="_self">人物介绍</a></li>
+						<li><a href="精美图集.html" target="_self">精美图集</a></li>
+						<li><a href="电影寓意.html" target="_self">电影寓意</a></li>
+						<li><a href="登录注册.html" target="_self">登录注册</a></li>
+						<li><a href="个人报告.html" target="_self">个人报告</a></li>
+					</ul>
+				</a></li>
+			<li class="two"><a href="剧情简介.html" target="_self">剧情简介<ul class="box2">
+						<li><a href="人物介绍.html" target="_self">人物介绍</a></li>
+						<li><a href="精美图集.html" target="_self">精美图集</a></li>
+						<li><a href="电影寓意.html" target="_self">电影寓意</a></li>
+						<li><a href="登录注册.html" target="_self">登录注册</a></li>
+						<li><a href="个人报告.html" target="_self">个人报告</a></li>
+					</ul></a></li>
+			<li class="three"><a href="人物介绍.html" target="_self">人物介绍<ul class="box3">
+						<li><a href="剧情简介.html" target="_self">剧情简介</a></li>
+						<li><a href="精美图集.html" target="_self">精美图集</a></li>
+						<li><a href="电影寓意.html" target="_self">电影寓意</a></li>
+						<li><a href="登录注册.html" target="_self">登录注册</a></li>
+						<li><a href="个人报告.html" target="_self">个人报告</a></li>
+					</ul></a></li>
+			<li class="four"><a href="精美图集.html" target="_self">精美图集<ul class="box4">
+						<li><a href="剧情简介.html" target="_self">剧情简介</a></li>
+						<li><a href="人物介绍.html" target="_self">人物介绍</a></li>
+						<li><a href="电影寓意.html" target="_self">电影寓意</a></li>
+						<li><a href="登录注册.html" target="_self">登录注册</a></li>
+						<li><a href="个人报告.html" target="_self">个人报告</a></li>
+					</ul></a></li>
+			<li class="five"><a href="电影寓意.html" target="_self">电影寓意<ul class="box5">
+						<li><a href="剧情简介.html" target="_self">剧情简介</a></li>
+						<li><a href="人物介绍.html" target="_self">人物介绍</a></li>
+						<li><a href="精美图集.html" target="_self">精美图集</a></li>
+						<li><a href="登录注册.html" target="_self">登录注册</a></li>
+						<li><a href="个人报告.html" target="_self">个人报告</a></li>
+					</ul></a></li>
+			<li class="six"><a href="登录注册.html" target="_self">登录注册<ul class="box6">
+						<li><a href="剧情简介.html" target="_self">剧情简介</a></li>
+						<li><a href="人物介绍.html" target="_self">人物介绍</a></li>
+						<li><a href="精美图集.html" target="_self">精美图集</a></li>
+						<li><a href="电影寓意.html" target="_self">电影寓意</a></li>
+						<li><a href="个人报告.html" target="_self">个人报告</a></li>
+					</ul></a></li>
+			<li><a href="个人报告.html" target="_self">个人报告</a></li>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="banner_pic" id="banner_pic">
+			<div class="current">
+				<img src="轮播图1.jpg">
+			</div>
+			<div class="pic"><img src="轮播图2.jpg">
+
+			</div>
+			<div class="pic"><img src="轮播图3.jpg">
+
+			</div>
+			<div class="pic"><img src="轮播图4.jpg">
+
+			</div>
+			<ol id="button">
+				<li class="current"></li>
+				<li class="but"></li>
+				<li class="but"></li>
+				<li class="but"></li>
+			</ol>
+		</div>
+	</div>
+	<div class="rw">
+		<img src="宫崎骏.jpg" align="left" width="300px" height="400px">
+		<h2>宫崎骏</h2>
+		<p>宫崎骏（Miyazaki
+			Hayao），日本知名动画导演、动画师，1941出生于东京，1963年进入东映动画公司，1965年与同事太田朱美结婚，并育有两子，1985年与高畑勋共同创立吉卜力工作室。宫崎骏在全球动画界具有无可替代的地位，迪斯尼称其为“动画界的黑泽明”。其动画作品大多涉及人类与自然之间的关系、和平主义及女权运动。
+		</p>
+		<p>宫崎骏在打破手冢治虫巨人阴影的同时，用自己坚毅的性格和永不妥协的奋斗又为后代动画家做出了榜样。宫崎骏的动画片是能够和迪士尼、梦工厂共分天下的一支重要的东方力量。宫崎骏的每部作品，题材虽然不同，但却将梦想、环保、人生、生存这些令人反思的讯息，融合其中。他这份执著，不单令全球人产生共鸣，更受到全世界所重视，连美国动画王国迪士尼，都有意购买宫崎骏的动画电影发行版权
+		</p>
+	</div>
+	<div class="rw"><img src="2.jpg" align="right" width="300px" height="400px">
+		<h2>龙猫</h2>
+		<p>该片优美的画面充满着农村田园的清新气息，片中却不乏各种惊心动魄的场面。虽然让观众有点紧张但这也是该片牵动人心的魅力所在。无论是大人还是小孩都能在影片中产生心灵共鸣。可谓是老幼皆宜。在宫崎骏神来之笔的点缀下，龙猫可以当软床睡，当魔术师膜拜的软萌“宠物”，还会陪五月、梅采摘山果子。每一个桥段都透着大自然对人类的呵护之情，捍卫了观众们的童真年代
+		</p>
+		<p>《龙猫》是由宫崎骏执导，日高法子、坂本千夏、糸井重里配音的动画电影，于1988年4月16日在日本上映。高清重制版于2018年12月14日在中国公映。
+			该片讲述了草壁达郎的妻子草壁靖子生病住院后，他带着草壁皋月与四岁的妹妹草壁梅回到乡间居住的故事。</p>
+	</div>
+	<div class="">
+		<img src="1.jpg" width="1000px" height="400px">
+	</div>
+</body>
+
+</html>

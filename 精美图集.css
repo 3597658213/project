@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.fixed {
+	position: fixed;
+	left: 5%;
+	top: 42%;
+	width: 150px;
+	height: 310px;
+	background-color: blue;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.442)
+}
+
+.fixed ul li {
+	margin: 20px auto;
+	border-radius: 5px;
+	color: skyblue;
+}
+
+.tu,
+.pic {
+	padding: 5px 5px 5px;
+	width: 1000px;
+	border-style: solid;
+	border-color: #0272DA;
+	border-width: 5px;
+}
+
+.pic img:hover {
+	transform: scale(1.1);
+}
+
+.tu img:hover {
+	transform: scale(1.1);
+}
+
+h1 {
+	color: #0272DA;
+}
+
+.tu {
+	margin-bottom: 10px auto;
+}

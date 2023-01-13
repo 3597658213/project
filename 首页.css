@@ -1,0 +1,57 @@
+body {
+	background: url(背景.jpg);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 华文楷体;
+}
+
+div {
+	margin: auto;
+}
+
+.nav {
+	border-radius: 50px 50px/50px 50px;
+	background-color: skyblue;
+	width: 1000px;
+	height: 30px;
+}
+
+.fixed {
+	position: fixed;
+	left: 5%;
+	top: 42%;
+	width: 150px;
+	height: 310px;
+	background-color: blue;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.442)
+}
+
+.fixed ul li {
+	margin: 20px auto;
+	border-radius: 5px;
+	color: skyblue;
+}
+
+a:link,
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: white;
+	background-color: skyblue;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+a {
+	padding: 0 20px;
+	font-size: 24px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+}

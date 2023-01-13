@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.fixed {
+	position: fixed;
+	left: 5%;
+	top: 42%;
+	width: 150px;
+	height: 310px;
+	background-color: blue;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.442)
+}
+
+.fixed ul li {
+	margin: 20px auto;
+	border-radius: 5px;
+	color: skyblue;
+}
+
+.content {
+	width: 1000px;
+	height: 600px;
+	margin: 5px auto 0;
+	border: 1px solid #ccc;
+	background-color: skyblue;
+	border-radius: 50px 50px/50px 50px;
+}
+
+
+
+.content aside {
+	float: left;
+	margin-left: 100px;
+}
+
+.content .right {
+	width: 385px;
+	float: left;
+	margin-left: 80px;
+}
+
+.content .right input {
+	width: 340px;
+	height: 30px;
+	color: #ccc;
+	font-size: 16px;
+	margin-top: 30px;
+	padding-left: 20px;
+	line-height: 30px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+input::placeholder {
+	color: #ccc;
+}
+
+.content .right .short {
+	width: 230px;
+}
+
+.content .right span {
+	display: inline-block;
+	width: 91px;
+	font-size: 14px;
+	color: #2fade7;
+	margin: 30px 0 0 25px;
+}
+
+.content .right p {
+	font-size: 14px;
+	padding: 0;
+	height: 30px;
+	line-height: 40px;
+	color: red;
+}
+
+.content .right input:nth-of-type(4) {
+	margin: 0;
+}
+
+.content .right .button {
+	width: 360px;
+	height: 36px;
+	color: #fff;
+	background-color: #2fade7;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.content .right .button:hover {
+	background-color: #0272da;
+}
+
+.content .right p:nth-of-type(2) {
+	color: #ccc;
+}
+
+.content .right p:nth-of-type(2) a {
+	color: #2fade7;
+}
+
+aside img {
+	width: 400px;
+	height: 400px;
+	margin-top: 100px;
+}
+
+.footer {
+	margin: 0 auto;
+	color: #000000;
+	width: 1000px;
+	height: 50px;
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人报告</title>
+</head>
+<style>
+    body {
+        background: url(背景.jpg);
+    }
+
+    li {
+        list-style-type: circle;
+    }
+
+    .header,
+    .main,
+    .footer {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    h4 {
+        font-size: 40px;
+        font-family: '华文楷体';
+        font-weight: 800;
+    }
+
+    h2,
+    h4 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+        font-family: '宋体';
+        font-weight: 900;
+    }
+
+    img {
+        width: 1000px;
+        border-radius: 20px;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+    }
+
+    .fixed {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        left: 2%;
+        top: 25%;
+        width: 200px;
+        height: 350px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.442)
+    }
+
+    .fixed ul li {
+        margin: 25px auto;
+        border-radius: 5px;
+        color: skyblue;
+    }
+
+    .fixed ul li a:hover {
+        color: blue;
+    }
+
+    .fixed ul li a {
+        font-size: 28px;
+        font-weight: 800;
+        font-family: '楷体';
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .hot:hover {
+        color: skyblue;
+    }
+
+    .footer li p,
+    .footer li h2 {
+        font-family: '华文楷体';
+    }
+</style>
+
+<body>
+    <div class="fixed">
+        <ul>
+            <li><a href="index.html" target="_self">首页</a></li>
+            <li><a href="剧情简介.html" target="_self">剧情简介</a></li>
+            <li><a href="人物介绍.html" target="_self">人物介绍</a></li>
+            <li><a href="精美图集.html" target="_self">精美图集</a></li>
+            <li><a href="电影寓意.html" target="_self">电影寓意</a></li>
+            <li><a href="登录注册.html" target="_self">登录注册</a></li>
+        </ul>
+
+    </div>
+    <div class="header">
+        <h1>个人报告</h1>
+        <h2>人员信息</h2>
+        <ul>
+            <li>
+                <p>组长及成员：易杰</p>
+            </li>
+            <li>
+                <p>班级：软件2213班</p>
+            </li>
+            <li>
+                <p>学号：0223133</p>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>
+            网站介绍
+        </h2>
+        <ul>
+            <li>
+                <p>名称:《龙猫的世界》</p>
+            </li>
+            <li>
+                <p>主题:龙猫</p>
+            </li>
+            <li>
+                <p>主题内容:主要是介绍《龙猫》这部电影中的人物、情节、电影的寓意、以及这部电影的创作者。</p>
+            </li>
+            <li>选题目的：《龙猫》这部作品是我十分喜欢的电影，非常值得一看。</li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>
+            网站设计
+        </h2>
+        <p>这个网站主要由一个主页和七个子网页构成，各个网页之间可以通过侧边栏和导航栏的超链接进行跳转。</p>
+        <ul>
+            <li>
+                <h4>首页</h4>
+                <ol>
+                    <li>
+                        <p>导航栏：运用了绝对定位和相对定位（postion ,relative ,absolute）、还运用了浮动（float,clear）
+                            二级导航栏运用了隐藏（display）设置了伪类。
+                        </p>
+                        <img src="首页1.png" alt="">
+                        <img src="首页2.png" alt="">
+                    </li>
+                    <li>
+                        <p>侧边栏：运用了fixed、clear。使用了无序列表（ul）</p>
+                        <img src="首页3.png" alt="">
+                    </li>
+                    <li>
+                        <p>轮播图：运用了js可以来回切换图片</p>
+                        <img src="首页4.png" alt="">
+                    </li>
+                    <li>
+                        <p>内容：字体样式，文本格式</p>
+                        <img src="首页0.png" alt="">
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h4>剧情简介</h4>
+                <ol>
+                    <li>
+                        <p>插入了插入了视频（video）和音频</p>
+                    </li>
+                    <img src="剧情介绍.png" alt="">
+                    <li>
+                        <p>设置了链接可以返回顶部</p>
+                        <img src="剧情介绍1.png" alt="">
+                    </li>
+                </ol>
+
+            </li>
+            </li>
+            <li>
+                <h4>人物介绍</h4>
+                <ol>
+                    <li>
+                        <p>运用了浮动（float）</p>
+                    </li>
+                    <li>
+                        <p>设置了伪类，鼠标浮于上方图片会按照比例放大</p>
+                    </li>
+                    <img src="人物介绍.png" alt="">
+
+                </ol>
+                <img src="" alt="">
+            </li>
+            </li>
+            <li>
+                <h4>精美图集</h4>
+                <ol>
+                    <li>
+                        <p>运用了浮动（float）和transform来使图片的缩放的效果</p>
+                    </li>
+                </ol>
+                <img src="精美图集.png" alt="">
+            </li>
+            </li>
+            <h4>电影寓意</h4>
+            <ol>
+                <li>
+                    <p>文字样式，文本格式</p>
+                </li>
+            </ol>
+            <img src="电影寓意.png" alt="">
+            </li>
+            </li>
+            <li>
+                <h4>登录注册</h4>
+                <img src="登录注册.png" alt="">
+            </li>
+        </ul>
+
+    </div>
+    <div class="footer">
+        <h2 class="hot">自我评价</h2>
+        <ol>
+            <li>
+                <p class="hot">网站的风格还有待进一步的完善。</p>
+            </li>
+            <li>
+                <p class="hot">运用的技术较少，还需要进一步提高技术运用的能力。</p>
+            </li>
+        </ol>
+        <h2 class="hot">总结</h2>
+        <ol>
+            <li>
+                <p class="hot">写完这个大作业让我学习到了更多的技术，以及了解其他有关知识例如ps修图，js技术</p>
+            </li>
+            <li>
+                <P class="hot">总之还是要多动手，在实践中发现问题。</P>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>

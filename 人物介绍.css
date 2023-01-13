@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 华文楷体;
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.fixed {
+	position: fixed;
+	left: 5%;
+	top: 42%;
+	width: 150px;
+	height: 310px;
+	background-color: blue;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.442)
+}
+
+.fixed ul li {
+	margin: 1px auto;
+	border-radius: 5px;
+	color: skyblue;
+}
+
+div {
+	border-radius: 50px 50px/50px 50px;
+	width: 1000px;
+	margin: 5px auto;
+
+}
+
+.content_left {
+	width: 250px;
+	height: 300px;
+	background-color: #D2EBFF;
+	float: left;
+	margin: 0;
+}
+
+.content_right {
+	width: 725px;
+	height: 300px;
+	background-color: skyblue;
+	float: right;
+	margin: 0;
+}
+
+.main {
+	border-radius: 50px 50px/50px 50px;
+	width: 1000px;
+	height: 305px;
+	margin: 5px auto;
+}
+
+.main img:hover {
+	transform: scale(1.1);
+}
+
+.pic {
+	width: 250px;
+	height: 300px;
+	border-style: double;
+	border-color: #000000;
+	border-radius: 50px 50px/50px 50px;
+}
+
+h4,
+p {
+	font-size: 24px;
+}
+
+span {
+	font-size: 30px;
+	color: #FF0000
+}
+
+p {
+	text-indent: 2em;
+	text-align: left;
+}
+
+h4 {
+	text-align: left;
+	text-indent: 2em;
+	font-family: 宋体;
+}
+
+.one {
+	width: 1000px;
+	height: 500px;
+}
